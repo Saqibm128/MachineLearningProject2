@@ -1,7 +1,4 @@
 import dist.Distribution;
-import func.nn.activation.ActivationFunction;
-import func.nn.activation.DifferentiableActivationFunction;
-import func.nn.activation.LogisticSigmoid;
 import func.nn.feedfwd.FeedForwardNetwork;
 import func.nn.feedfwd.FeedForwardNeuralNetworkFactory;
 import opt.EvaluationFunction;
@@ -27,13 +24,14 @@ import java.util.ArrayList;
 /**
  * Created by JasonGibson on 3/3/17.
  */
-public class abigail {
-    static final int NUM_ITER = 10;
+public class abigailver2 {
+
     static final int NUM_OF_SIMULATIONS = 1;
-    static final int[] networkStructure = new int[] { 39, 20, 20, 20, 20, 1};
-    static final DifferentiableActivationFunction sigmoidFunction = new LogisticSigmoid();
+    static final int[] networkStructure = new int[] { 16, 20, 10};
+    static final int[] num_iter = {1, 2, 5, 10, 100, 500};
 
     public static void main(String[] args) {
+        System.out.println("Start reading in data now");
         DataSetReader dsr = new ArffDataSetReader(new File("").getAbsolutePath() + "/nominalPenDigits.arff");
         // read in the raw data
         DataSet data = null;
@@ -45,22 +43,17 @@ public class abigail {
         ArrayList<String> results = new ArrayList<>();
         if(data != null) {
             for (int i = 0; i < data.size(); i++) {
-                int lastIndexOfData = data.get(i).getData().size() - 1;
-                data.get(i).setLabel(new Instance(data.get(i).getData().get(lastIndexOfData)));
+                data.get(i).setLabel(new Instance(data.get(i).getData().get(data.get(i).size()-1)));
+                data.get(i).setData(data.get(i).getData().remove(data.get(i).size()-1));
             }
             results.add("simulation number, RHC, MIMIC, SA, GA");
-            for (int sims = 0; sims <= NUM_OF_SIMULATIONS - 1; sims++) {
+            for (int sims = 0; sims < num_iter.length; sims++) {
                 // Start timer
                 long start = System.nanoTime();
-                System.out.println("simulation " + sims);
-                System.out.println("running RHC");
-                FeedForwardNetwork nnRHC = runRHC(data, 1000);
-                System.out.println("running MIMIC");
-                FeedForwardNetwork nnMimic = runMIMIC(data, 1000, nnRHC.getWeights().length);
-                System.out.println("running SA");
-                FeedForwardNetwork nnSA = runSA(data, 1000);
-                System.out.println("running GA");
-                FeedForwardNetwork nnGA = runGA(data, 1000);
+                FeedForwardNetwork nnRHC = runRHC(data, num_iter[sims]);
+                FeedForwardNetwork nnMimic = runMIMIC(data, 1, nnRHC.getWeights().length);
+                FeedForwardNetwork nnSA = runSA(data, num_iter[sims]);
+                FeedForwardNetwork nnGA = runGA(data, num_iter[sims]);
 
                 System.out.println("Simulation " + sims + "...");
                 StringBuffer tempResults = new StringBuffer();
@@ -72,6 +65,7 @@ public class abigail {
                 tempResults.append(String.valueOf(fitness(nnSA, data)));
                 tempResults.append(",");
                 tempResults.append(String.valueOf(fitness(nnGA, data)));
+                tempResults.append("Run on " + num_iter[sims]);
 
                 // End timer
                 long end = System.nanoTime();
@@ -95,7 +89,7 @@ public class abigail {
 
     public static FeedForwardNetwork runSA(DataSet data, int numIter) {
         FeedForwardNeuralNetworkFactory factory = new FeedForwardNeuralNetworkFactory();
-        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure, sigmoidFunction);
+        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure);
         ErrorMeasure measure = new SumOfSquaresError();
         NeuralNetworkOptimizationProblem nno = new NeuralNetworkOptimizationProblem(data, network, measure);
         OptimizationAlgorithm o = new SimulatedAnnealing(10, 0.99, nno);
@@ -107,7 +101,7 @@ public class abigail {
 
     public static FeedForwardNetwork runGA(DataSet data, int numIter) {
         FeedForwardNeuralNetworkFactory factory = new FeedForwardNeuralNetworkFactory();
-        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure, sigmoidFunction);
+        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure);
         ErrorMeasure measure = new SumOfSquaresError();
         NeuralNetworkOptimizationProblem nno = new NeuralNetworkOptimizationProblem(data, network, measure);
         OptimizationAlgorithm o = new StandardGeneticAlgorithm(500, 300, 50, nno);
@@ -119,7 +113,7 @@ public class abigail {
 
     public static FeedForwardNetwork runRHC(DataSet data, int numIter) {
         FeedForwardNeuralNetworkFactory factory = new FeedForwardNeuralNetworkFactory();
-        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure, sigmoidFunction);
+        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure);
         ErrorMeasure measure = new SumOfSquaresError();
         NeuralNetworkOptimizationProblem nno = new NeuralNetworkOptimizationProblem(data, network, measure);
         OptimizationAlgorithm o = new RandomizedHillClimbing(nno);
@@ -131,7 +125,7 @@ public class abigail {
 
     public static FeedForwardNetwork runMIMIC(DataSet data, int numIter, int length) {
         FeedForwardNeuralNetworkFactory factory = new FeedForwardNeuralNetworkFactory();
-        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure, sigmoidFunction);
+        FeedForwardNetwork network = factory.createClassificationNetwork(networkStructure);
         NeuralNetworkWeightDistribution dist1 = new NeuralNetworkWeightDistribution(length);
         NeuralNetworkWeightDistribution dist2 = new NeuralNetworkWeightDistribution(length);
         dist1.estimate(data);
@@ -184,9 +178,12 @@ public class abigail {
         for (int i = 0; i < patterns.length; i++) {
             network.setInputValues(patterns[i].getData());
             network.run();
-            double correctLabel = data.get(i).getLabel().getContinuous();
+            double correctLabel = data.get(i).getLabel().getDiscrete();
             double proposedLabel = network.getOutputValues().get(0);
-
+//            for (int j = 0; j < network.getOutputValues().size(); j++) {
+//                System.out.print(network.getOutputValues().get(j));
+//            }
+//            System.out.println();
             //System.out.println("Correct label: " + correctLabel);
             //System.out.println("Proposed label: " + proposedLabel);
 
@@ -198,3 +195,44 @@ public class abigail {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

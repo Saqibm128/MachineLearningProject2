@@ -51,7 +51,18 @@ public class NeuralNetworkEvaluationFunction implements EvaluationFunction {
         for (int i = 0; i < examples.size(); i++) {
             network.setInputValues(examples.get(i).getData());
             network.run();
-            error += measure.value(new Instance(network.getOutputValues()), examples.get(i));
+//            System.out.println("Examples size " + examples.size());
+//            System.out.println("Example " + i +": " + examples.get(i));
+            double maxVal = network.getOutputValues().get(0);
+            int max = 0;
+            for (int j = 0; j < network.getOutputValues().size(); j++) {
+                if (network.getOutputValues().get(j) > maxVal) {
+                    maxVal = network.getOutputValues().get(j);
+                    max = j;
+                }
+            }
+            error += measure.value(new Instance(max), examples.get(i));
+
         }
         // the fitness is 1 / error
         return 1 / error;

@@ -1,4 +1,4 @@
-@relation pendigits
+@relation pendigits-weka.filters.unsupervised.attribute.NumericToNominal-Rlast
 
 @attribute d1 numeric
 @attribute ' d2' numeric
@@ -16,7 +16,7 @@
 @attribute d14 numeric
 @attribute d15 numeric
 @attribute d16 numeric
-@attribute label numeric
+@attribute label {0,1,2,3,4,5,6,7,8,9}
 
 @data
 47,100,27,81,57,37,26,0,0,23,56,53,100,90,40,98,8

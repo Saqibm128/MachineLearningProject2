@@ -20,6 +20,7 @@ public class SumOfSquaresError extends AbstractErrorMeasure
         double sum = 0;
         Instance label = example.getLabel();
         for (int i = 0; i < output.size(); i++) {
+//            System.out.println("Getting value of instance val " + i);
             sum += (output.getContinuous(i) - label.getContinuous(i)) 
                 * (output.getContinuous(i) - label.getContinuous(i))
                 * example.getWeight();
