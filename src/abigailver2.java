@@ -28,7 +28,7 @@ public class abigailver2 {
 
     static final int NUM_OF_SIMULATIONS = 1;
     static final int[] networkStructure = new int[] { 16, 20, 10};
-    static final int[] num_iter = {1, 2, 5, 10, 100, 500};
+    static final int[] num_iter = {1, 2, 5, 10, 100, 500, 1000};
 
     public static void main(String[] args) {
         System.out.println("Start reading in data now");
@@ -50,9 +50,13 @@ public class abigailver2 {
             for (int sims = 0; sims < num_iter.length; sims++) {
                 // Start timer
                 long start = System.nanoTime();
+                System.out.println("evaluating RHC");
                 FeedForwardNetwork nnRHC = runRHC(data, num_iter[sims]);
+                System.out.println("mimic");
                 FeedForwardNetwork nnMimic = runMIMIC(data, 1, nnRHC.getWeights().length);
+                System.out.println("SA");
                 FeedForwardNetwork nnSA = runSA(data, num_iter[sims]);
+                System.out.println("GA");
                 FeedForwardNetwork nnGA = runGA(data, num_iter[sims]);
 
                 System.out.println("Simulation " + sims + "...");
@@ -73,6 +77,7 @@ public class abigailver2 {
                 // Print out results
                 //System.out.println("----");
                 System.out.println("Time taken: " + (end - start) / Math.pow(10, 9) + " seconds.");
+                System.out.println(tempResults.toString());
                 results.add(tempResults.toString());
             }
         }
@@ -191,7 +196,7 @@ public class abigailver2 {
                 correct += 1;
         }
 
-        return correct * 1.0;
+        return correct * 1.0 / data.size();
     }
 
 }

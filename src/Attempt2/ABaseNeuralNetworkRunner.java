@@ -11,6 +11,7 @@ import shared.reader.ArffDataSetReader;
 import shared.reader.DataSetLabelBinarySeperator;
 import shared.runner.Runner;
 import shared.tester.*;
+import util.linalg.Vector;
 
 import java.io.File;
 
@@ -52,12 +53,18 @@ public abstract class ABaseNeuralNetworkRunner implements Runner {
         //    through the network at the bottom to verify the output
         ArffDataSetReader reader = new ArffDataSetReader(this.dataFilePath);
         DataSet set = reader.read();
-        LabelSplitFilter flt = new LabelSplitFilter();
-        flt.filter(set);
-        DataSetLabelBinarySeperator.seperateLabels(set);
-
+//        LabelSplitFilter flt = new LabelSplitFilter();
+//        flt.filter(set);
+//        DataSetLabelBinarySeperator.seperateLabels(set);
+        for(int i = 0; i < set.size(); i ++) {
+            Instance instance = set.get(i);
+            instance.setLabel(new Instance(instance.getDiscrete(instance.size() - 1)));
+            Vector data = instance.getData();
+            data.remove(data.size() - 1);
+            instance.setData(data);
+        }
         DataSetDescription desc = set.getDescription();
-        DataSetDescription labelDesc = desc.getLabelDescription();
+        DataSetDescription labelDesc = new DataSetDescription(set.getLabelDataSet());
 
         DataSet training;
         DataSet testing;

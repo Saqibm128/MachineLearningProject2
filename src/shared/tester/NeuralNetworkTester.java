@@ -36,12 +36,20 @@ public class NeuralNetworkTester implements Tester {
             //NOTE: assumes discrete labels, with n output nodes for n
             // potential labels, and an activation function that outputs
             // values between 0 and 1.
-            Instance expectedOne = DataSetLabelBinarySeperator.combineLabels(expected);
-            Instance actualOne   = DataSetLabelBinarySeperator.combineLabels(actual);
+            int max = 0;
+            double maxVal = actual.getContinuous(max);
+
+            for (int j = 0; j < actual.size(); j++) {
+                if (maxVal < actual.getContinuous(j)) {
+                    maxVal = actual.getContinuous(j);
+                    max = j;
+                }
+            }
+            actual = new Instance(max);
 
             //run this result past all of the available test metrics
             for (TestMetric metric : metrics) {
-                metric.addResult(expectedOne, actualOne);
+                metric.addResult(expected, actual);
             }
         }
     }
