@@ -1,0 +1,275 @@
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -Didea.launcher.port=7555 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Mohammed\Documents\CS4641\project2\ABAGAIL\bin;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Attempt2.Project2BPartA
+beginning RHCRunner
+Beginning training
+1.5467566543036465E-4
+Correctly Classified Instances: 22.03%
+Incorrectly Classified Instances: 77.97%
+Training time: 02:56
+Testing time: 00:00
+Number of iterations: 10000
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	121	0	0	708	0	0	0	31	0	0
+1	232	288	156	0	145	20	0	3	13	0	0
+2	715	1	58	0	48	6	0	4	18	0	0
+3	60	14	18	0	616	35	0	0	44	0	0
+4	1	19	5	0	750	0	0	18	78	0	0
+5	1	2	21	0	252	1	0	3	490	0	0
+6	0	0	4	0	229	0	0	0	570	0	0
+7	3	77	1	0	117	2	0	0	675	0	0
+8	0	1	6	0	34	13	0	4	719	0	0
+9	4	9	13	0	37	6	0	40	685	0	0
+
+Beginning training
+1.3050177132071722E-4
+Correctly Classified Instances: 20.31%
+Incorrectly Classified Instances: 79.69%
+Training time: 05:38
+Testing time: 00:00
+Number of iterations: 10000
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	393	122	0	4	15	0	21	8	0	0	0
+1	249	0	0	262	25	0	35	0	0	0	0
+2	6	0	0	533	21	0	6	0	0	0	0
+3	2	0	0	497	0	0	21	7	0	0	0
+4	3	0	0	353	0	0	212	10	0	0	0
+5	0	0	0	47	0	0	443	41	0	0	0
+6	0	11	0	7	45	149	196	116	0	0	0
+7	11	0	0	46	12	4	486	30	0	0	0
+8	0	0	0	1	0	0	24	499	0	0	0
+9	0	0	0	5	0	0	319	199	0	0	0
+
+Beginning training
+9.892325496296608E-5
+Correctly Classified Instances: 30.38%
+Incorrectly Classified Instances: 69.62%
+Training time: 07:56
+Testing time: 00:00
+Number of iterations: 10000
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	311	2	0	3	0	13	5	0	0	0	0
+1	4	14	233	22	2	6	57	2	0	0	0
+2	0	17	280	40	0	6	2	1	0	0	0
+3	0	0	295	0	17	0	5	2	0	0	0
+4	0	0	4	187	0	32	115	7	0	1	0
+5	0	0	16	0	9	57	215	20	0	0	0
+6	2	0	0	3	0	9	306	0	0	0	0
+7	1	1	25	2	2	0	296	21	0	0	0
+8	6	0	0	0	0	14	292	0	0	0	0
+9	0	0	9	0	3	0	83	208	0	13	0
+
+Beginning training
+7.336024754396478E-5
+Correctly Classified Instances: 33.45%
+Incorrectly Classified Instances: 66.55%
+Training time: 10:33
+Testing time: 00:00
+Number of iterations: 10000
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	101	0	0	0	2	0	3	0	0	0
+1	0	0	98	9	0	2	0	1	0	0	0
+2	0	0	119	0	0	1	0	0	0	0	0
+3	0	0	4	105	0	0	0	7	0	0	0
+4	0	0	10	85	0	3	0	21	0	0	0
+5	0	0	0	0	0	56	0	43	0	0	0
+6	0	0	0	1	0	42	0	62	0	0	0
+7	0	0	5	16	0	1	0	88	0	0	0
+8	0	0	0	0	1	5	0	97	0	1	0
+9	0	0	0	8	0	2	0	101	0	0	0
+
+Beginning training
+5.3935890640148645E-5
+Correctly Classified Instances: 38.80%
+Incorrectly Classified Instances: 61.20%
+Training time: 13:02
+Testing time: 00:00
+Number of iterations: 10000
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	1069	0	1	29	18	25	0	1	0	0
+1	0	0	84	730	310	0	16	3	0	0	0
+2	0	0	0	175	962	0	1	6	0	0	0
+3	0	3	97	918	6	0	27	3	1	0	0
+4	0	2	3	2	772	11	337	1	16	0	0
+5	0	2	5	17	2	531	411	79	8	0	0
+6	0	2	2	2	16	1	1019	13	1	0	0
+7	0	0	0	58	31	8	54	974	17	0	0
+8	0	4	0	2	8	20	396	574	51	0	0
+9	0	0	0	25	74	0	874	10	72	0	0
+
+
+Process finished with exit code 0
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -Didea.launcher.port=7554 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Mohammed\Documents\CS4641\project2\ABAGAIL\bin;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Attempt2.Project2CPartA
+beginning SimulatedAnnealingRunner
+Beginning training
+4.15013549903212E-5
+Correctly Classified Instances: 15.09%
+Incorrectly Classified Instances: 84.91%
+Training time: 03:12
+Testing time: 00:00
+Number of iterations: 10000
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	118	16	0	63	292	23	0	298	50	0
+1	0	0	0	3	480	5	265	0	1	103	0
+2	0	0	0	0	657	0	31	0	0	162	0
+3	0	0	0	0	746	4	4	0	5	28	0
+4	0	1	5	0	198	197	157	0	21	292	0
+5	0	0	0	0	207	102	318	59	3	81	0
+6	0	0	0	0	6	107	487	0	0	203	0
+7	0	0	0	0	740	16	35	0	0	84	0
+8	0	0	20	0	242	152	211	1	35	116	0
+9	0	0	0	2	152	24	182	0	12	422	0
+
+Beginning training
+1.9719095416181916E-5
+Correctly Classified Instances: 12.81%
+Incorrectly Classified Instances: 87.19%
+Training time: 06:12
+Testing time: 00:00
+Number of iterations: 10000
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	56	39	0	0	17	40	0	411	0
+1	0	41	250	0	0	0	1	0	0	279	0
+2	0	9	479	0	0	0	0	0	0	78	0
+3	0	0	101	0	0	0	0	0	0	426	0
+4	0	0	190	0	0	0	0	0	0	388	0
+5	0	0	191	0	0	0	215	9	0	116	0
+6	0	0	507	0	0	0	0	0	0	17	0
+7	0	0	407	0	0	0	0	0	0	182	0
+8	0	0	195	0	0	0	78	0	0	251	0
+9	0	1	331	5	0	0	2	0	0	184	0
+
+Beginning training
+1.9968877641959598E-5
+Correctly Classified Instances: 7.43%
+Incorrectly Classified Instances: 92.57%
+Training time: 08:44
+Testing time: 00:00
+Number of iterations: 10000
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	1	12	4	157	26	134	0	0	0	0	0
+1	0	2	25	7	186	115	5	0	0	0	0
+2	0	32	34	115	26	112	27	0	0	0	0
+3	0	0	3	1	132	183	0	0	0	0	0
+4	0	0	56	182	84	24	0	0	0	0	0
+5	0	52	15	33	96	121	0	0	0	0	0
+6	0	4	25	271	1	17	2	0	0	0	0
+7	0	6	4	9	186	123	20	0	0	0	0
+8	1	59	5	38	34	143	32	0	0	0	0
+9	1	0	26	58	115	116	0	0	0	0	0
+
+Beginning training
+1.1056134553683137E-5
+Correctly Classified Instances: 20.36%
+Incorrectly Classified Instances: 79.64%
+Training time: 11:11
+Testing time: 00:00
+Number of iterations: 10000
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	16	2	1	8	66	9	0	4	0	0
+1	0	0	69	0	1	0	0	0	40	0	0
+2	0	0	113	3	1	0	0	0	3	0	0
+3	0	32	2	0	13	0	3	0	66	0	0
+4	0	1	39	6	65	1	3	0	4	0	0
+5	6	23	0	4	16	30	0	0	20	0	0
+6	0	53	1	13	14	1	0	0	23	0	0
+7	5	2	45	0	14	5	3	0	36	0	0
+8	0	25	32	3	9	15	6	0	14	0	0
+9	0	5	8	0	75	0	5	0	16	2	0
+
+Beginning training
+1.1320911824112544E-5
+Correctly Classified Instances: 6.80%
+Incorrectly Classified Instances: 93.20%
+Training time: 13:17
+Testing time: 00:00
+Number of iterations: 10000
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	5	334	68	1	572	136	7	2	18	0
+1	102	87	446	15	79	0	220	80	114	0	0
+2	9	4	182	9	23	0	398	154	365	0	0
+3	2	1	35	0	889	0	6	122	0	0	0
+4	0	32	851	119	9	6	68	13	46	0	0
+5	4	105	163	27	21	9	458	213	55	0	0
+6	0	0	266	219	27	0	400	11	133	0	0
+7	233	1	351	23	154	0	287	39	54	0	0
+8	1	18	260	131	97	177	227	46	21	77	0
+9	0	115	630	10	181	0	5	98	16	0	0
+
+
+Process finished with exit code 0
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -Didea.launcher.port=7552 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Mohammed\Documents\CS4641\project2\ABAGAIL\bin;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Attempt2.Project2DPartA
+beginning GeneticRunner
+Beginning training
+1.2937086215024122E-4
+Correctly Classified Instances: 18.39%
+Incorrectly Classified Instances: 81.61%
+Training time: 11:18
+Testing time: 00:00
+Number of iterations: 10000
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	841	0	0	0	0	19	0	0
+1	0	0	0	714	0	135	0	3	5	0	0
+2	0	0	0	681	0	162	0	5	2	0	0
+3	0	0	0	179	0	597	0	7	4	0	0
+4	0	0	0	665	0	124	0	0	82	0	0
+5	0	0	0	16	0	654	0	36	64	0	0
+6	0	0	0	180	0	575	0	0	48	0	0
+7	0	0	0	124	0	81	0	659	11	0	0
+8	0	0	0	76	2	269	7	399	24	0	0
+9	0	0	0	130	0	16	0	1	647	0	0
+
+Beginning training
+5.41973716622183E-5
+Correctly Classified Instances: 20.36%
+Incorrectly Classified Instances: 79.64%
+Training time: 23:15
+Testing time: 00:00
+Number of iterations: 10000
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	454	0	102	1	6	0	0	0
+1	0	301	0	166	0	40	63	1	0	0	0
+2	0	499	0	21	0	46	0	0	0	0	0
+3	0	1	0	210	0	316	0	0	0	0	0
+4	0	3	0	176	0	288	7	104	0	0	0
+5	2	0	0	65	0	421	43	0	0	0	0
+6	0	0	0	7	0	311	144	45	17	0	0
+7	0	31	0	72	0	443	0	43	0	0	0
+8	0	5	0	81	0	402	0	36	0	0	0
+9	0	36	0	28	0	390	5	59	5	0	0
+
+Beginning training

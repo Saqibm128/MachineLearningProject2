@@ -34,7 +34,11 @@ public class BaseTest {
                 csv.write("" + ii);
                 fit = new FixedIterationTrainer(oa, trainItr);
                 fit.train();
-                csv.write("" + ef.value(oa.getOptimal()));
+                csv.write("Value of " + ef.value(oa.getOptimal()));
+                csv.write("optimal vals:");
+                for (int j = 0; j > oa.getOptimal().getData().size(); j ++) {
+                    csv.write("" + oa.getOptimal().getData().get(j));
+                }
                 csv.nextRecord();
                 oa = factory.newOptimizationAlgorithm();
             } while (++ii <= runItr);

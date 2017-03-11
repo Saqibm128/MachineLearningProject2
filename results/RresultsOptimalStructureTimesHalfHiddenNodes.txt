@@ -1,0 +1,1002 @@
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -Didea.launcher.port=7548 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Mohammed\Documents\CS4641\project2\ABAGAIL\bin;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Attempt2.Project2DPartA
+beginning GeneticRunner
+Beginning training
+7.88780056749745E-5
+Correctly Classified Instances: 9.16%
+Incorrectly Classified Instances: 90.84%
+Training time: 00:08
+Testing time: 00:00
+Number of iterations: 100
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	119	259	0	0	166	316	0	0	0	0	0
+1	1	0	0	43	617	187	6	0	0	3	0
+2	0	0	0	33	767	41	2	0	0	7	0
+3	0	0	0	1	493	293	0	0	0	0	0
+4	67	17	0	12	202	573	0	0	0	0	0
+5	0	0	0	0	245	433	92	0	0	0	0
+6	0	0	3	0	541	258	0	0	0	1	0
+7	0	0	0	37	747	91	0	0	0	0	0
+8	0	0	0	1	446	330	0	0	0	0	0
+9	0	0	0	26	225	542	1	0	0	0	0
+
+Beginning training
+4.156204907585942E-5
+Correctly Classified Instances: 10.52%
+Incorrectly Classified Instances: 89.48%
+Training time: 00:12
+Testing time: 00:00
+Number of iterations: 100
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	563	0	0	0	0	0	0
+1	0	0	0	0	571	0	0	0	0	0	0
+2	0	0	0	0	566	0	0	0	0	0	0
+3	0	0	0	0	527	0	0	0	0	0	0
+4	0	0	0	0	578	0	0	0	0	0	0
+5	0	0	0	0	531	0	0	0	0	0	0
+6	0	0	0	0	524	0	0	0	0	0	0
+7	0	0	0	0	589	0	0	0	0	0	0
+8	0	0	0	0	524	0	0	0	0	0	0
+9	0	0	0	0	523	0	0	0	0	0	0
+
+Beginning training
+2.52735257774076E-5
+Correctly Classified Instances: 13.46%
+Incorrectly Classified Instances: 86.54%
+Training time: 00:15
+Testing time: 00:00
+Number of iterations: 100
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	0	334	0	0	0	0	0
+1	0	145	0	0	0	144	0	44	7	0	0
+2	0	215	14	0	0	75	0	0	42	0	0
+3	0	0	0	0	0	319	0	0	0	0	0
+4	0	0	0	0	0	339	0	7	0	0	0
+5	0	0	47	0	0	257	0	1	12	0	0
+6	0	0	11	0	0	306	0	2	1	0	0
+7	0	39	2	0	0	294	0	6	7	0	0
+8	0	2	72	0	0	215	1	0	22	0	0
+9	0	0	0	0	0	295	0	21	0	0	0
+
+Beginning training
+2.3052289391106458E-5
+Correctly Classified Instances: 9.09%
+Incorrectly Classified Instances: 90.91%
+Training time: 00:21
+Testing time: 00:00
+Number of iterations: 100
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	0	106	0	0	0	0	0
+1	3	0	0	27	2	78	0	0	0	0	0
+2	0	0	0	56	3	61	0	0	0	0	0
+3	0	0	0	1	0	115	0	0	0	0	0
+4	0	0	0	2	0	117	0	0	0	0	0
+5	0	0	0	0	0	99	0	0	0	0	0
+6	0	0	0	1	1	100	0	3	0	0	0
+7	0	0	0	14	0	96	0	0	0	0	0
+8	0	0	0	0	0	104	0	0	0	0	0
+9	1	0	0	2	0	108	0	0	0	0	0
+
+Beginning training
+1.878258286444304E-5
+Correctly Classified Instances: 12.45%
+Incorrectly Classified Instances: 87.55%
+Training time: 00:21
+Testing time: 00:00
+Number of iterations: 100
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	498	645	0	0	0	0	0	0
+1	0	238	0	17	856	0	30	0	2	0	0
+2	0	255	0	5	864	0	20	0	0	0	0
+3	0	1	0	0	1054	0	0	0	0	0	0
+4	0	0	0	13	1131	0	0	0	0	0	0
+5	0	0	0	2	1053	0	0	0	0	0	0
+6	0	0	0	391	665	0	0	0	0	0	0
+7	2	36	0	12	1091	0	1	0	0	0	0
+8	0	11	0	408	636	0	0	0	0	0	0
+9	0	0	0	0	1055	0	0	0	0	0	0
+
+Beginning training
+8.013225720122356E-5
+Correctly Classified Instances: 7.44%
+Incorrectly Classified Instances: 92.56%
+Training time: 00:38
+Testing time: 00:00
+Number of iterations: 500
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	1	0	0	652	0	2	167	38	0	0	0
+1	84	0	0	123	0	233	405	12	0	0	0
+2	32	0	0	545	0	104	164	5	0	0	0
+3	0	0	0	201	0	396	35	155	0	0	0
+4	0	0	0	293	0	12	517	49	0	0	0
+5	0	0	0	19	8	81	465	192	5	0	0
+6	0	0	0	60	0	0	305	438	0	0	0
+7	6	0	0	278	0	49	517	25	0	0	0
+8	1	0	0	269	18	33	233	223	0	0	0
+9	1	0	0	107	0	339	236	111	0	0	0
+
+Beginning training
+4.915857300704736E-5
+Correctly Classified Instances: 9.88%
+Incorrectly Classified Instances: 90.12%
+Training time: 01:03
+Testing time: 00:00
+Number of iterations: 500
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	191	311	0	0	0	54	7	0	0
+1	0	0	0	538	0	0	0	8	25	0	0
+2	0	0	0	510	0	0	0	56	0	0	0
+3	0	0	0	476	0	0	0	25	26	0	0
+4	0	0	43	483	0	0	0	42	10	0	0
+5	1	0	0	94	0	16	0	390	30	0	0
+6	0	0	3	74	0	0	0	391	56	0	0
+7	0	0	0	546	0	0	0	43	0	0	0
+8	1	0	0	291	0	1	0	223	8	0	0
+9	0	0	0	114	0	0	0	251	158	0	0
+
+Beginning training
+2.989366821110132E-5
+Correctly Classified Instances: 9.92%
+Incorrectly Classified Instances: 90.08%
+Training time: 01:37
+Testing time: 00:00
+Number of iterations: 500
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	0	333	1	0	0	0	0
+1	0	0	0	0	0	263	77	0	0	0	0
+2	0	0	0	0	0	322	23	1	0	0	0
+3	0	0	0	0	0	319	0	0	0	0	0
+4	0	0	0	0	0	346	0	0	0	0	0
+5	0	0	0	0	0	305	5	7	0	0	0
+6	0	0	0	0	0	320	0	0	0	0	0
+7	0	0	0	0	0	241	85	22	0	0	0
+8	0	0	0	0	0	191	121	0	0	0	0
+9	0	0	0	0	0	315	1	0	0	0	0
+
+Beginning training
+2.6794806299510128E-5
+Correctly Classified Instances: 10.18%
+Incorrectly Classified Instances: 89.82%
+Training time: 01:54
+Testing time: 00:00
+Number of iterations: 500
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	62	30	0	13	0	1	0	0	0	0
+1	0	0	0	0	110	0	0	0	0	0	0
+2	0	0	0	0	120	0	0	0	0	0	0
+3	0	0	0	0	116	0	0	0	0	0	0
+4	0	6	1	0	112	0	0	0	0	0	0
+5	0	0	0	0	97	0	2	0	0	0	0
+6	0	0	1	0	99	5	0	0	0	0	0
+7	0	0	0	0	108	0	1	0	1	0	0
+8	0	0	5	0	74	0	25	0	0	0	0
+9	0	0	0	0	111	0	0	0	0	0	0
+
+Beginning training
+2.1454305675864586E-5
+Correctly Classified Instances: 8.33%
+Incorrectly Classified Instances: 91.67%
+Training time: 02:10
+Testing time: 00:00
+Number of iterations: 500
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	11	0	397	0	150	583	0	0	2	0	0
+1	9	0	75	5	0	1046	0	0	7	1	0
+2	138	0	0	0	0	1006	0	0	0	0	0
+3	0	0	0	0	0	1055	0	0	0	0	0
+4	2	0	4	0	13	1125	0	0	0	0	0
+5	0	0	124	0	42	884	0	0	4	1	0
+6	0	0	5	0	110	941	0	0	0	0	0
+7	0	0	0	0	0	1142	0	0	0	0	0
+8	3	3	79	4	195	763	0	0	8	0	0
+9	11	4	7	0	9	999	0	1	24	0	0
+
+Beginning training
+1.1054834619825389E-4
+Correctly Classified Instances: 9.06%
+Incorrectly Classified Instances: 90.94%
+Training time: 04:55
+Testing time: 00:00
+Number of iterations: 5000
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	1	2	709	0	9	138	1	0	0	0	0
+1	18	0	0	582	51	178	28	0	0	0	0
+2	1	0	0	560	3	286	0	0	0	0	0
+3	2	0	0	3	0	782	0	0	0	0	0
+4	0	0	131	1	84	647	8	0	0	0	0
+5	0	0	3	81	0	659	12	10	0	5	0
+6	1	0	17	0	2	783	0	0	0	0	0
+7	4	0	0	192	50	564	65	0	0	0	0
+8	7	5	10	3	7	630	19	77	0	19	0
+9	8	0	3	24	12	739	8	0	0	0	0
+
+Beginning training
+5.039668164780378E-5
+Correctly Classified Instances: 9.64%
+Incorrectly Classified Instances: 90.36%
+Training time: 08:34
+Testing time: 00:00
+Number of iterations: 5000
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	410	14	0	0	132	0	0	0	7	0
+1	0	0	0	0	0	571	0	0	0	0	0
+2	0	0	0	0	0	565	0	0	0	1	0
+3	0	0	0	0	0	527	0	0	0	0	0
+4	0	24	0	0	0	554	0	0	0	0	0
+5	0	1	0	0	0	530	0	0	0	0	0
+6	0	0	0	0	0	523	0	0	0	1	0
+7	0	0	0	0	0	589	0	0	0	0	0
+8	0	0	0	0	0	464	0	0	0	60	0
+9	0	0	0	0	0	523	0	0	0	0	0
+
+Beginning training
+3.155946821637088E-5
+Correctly Classified Instances: 16.19%
+Incorrectly Classified Instances: 83.81%
+Training time: 11:00
+Testing time: 00:00
+Number of iterations: 5000
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	333	0	0	1	0	0	0
+1	0	138	0	0	202	0	0	0	0	0	0
+2	0	77	0	0	269	0	0	0	0	0	0
+3	0	1	0	0	318	0	0	0	0	0	0
+4	0	0	0	0	346	0	0	0	0	0	0
+5	0	0	0	0	279	0	0	36	2	0	0
+6	0	0	0	0	320	0	0	0	0	0	0
+7	0	6	0	0	342	0	0	0	0	0	0
+8	0	1	0	0	199	0	0	62	50	0	0
+9	0	0	0	0	316	0	0	0	0	0	0
+
+Beginning training
+3.006767865703454E-5
+Correctly Classified Instances: 25.18%
+Incorrectly Classified Instances: 74.82%
+Training time: 14:54
+Testing time: 00:00
+Number of iterations: 5000
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	92	0	0	0	0	13	1	0	0	0	0
+1	0	0	0	0	0	104	6	0	0	0	0
+2	0	0	0	0	0	120	0	0	0	0	0
+3	0	0	0	0	0	116	0	0	0	0	0
+4	0	0	0	0	0	116	3	0	0	0	0
+5	0	0	0	0	0	98	0	0	0	1	0
+6	0	0	1	0	0	17	87	0	0	0	0
+7	0	0	0	0	0	109	1	0	0	0	0
+8	0	0	0	0	0	51	53	0	0	0	0
+9	0	0	0	0	0	111	0	0	0	0	0
+
+Beginning training
+2.855044528115218E-5
+Correctly Classified Instances: 9.22%
+Incorrectly Classified Instances: 90.78%
+Training time: 544:06
+Testing time: 00:00
+Number of iterations: 5000
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	987	0	45	0	70	0	41	0	0	0
+1	1	47	2	632	0	460	0	0	1	0	0
+2	10	70	0	593	0	449	9	13	0	0	0
+3	0	0	0	283	0	771	0	0	1	0	0
+4	0	29	0	550	0	565	0	0	0	0	0
+5	0	7	0	23	0	418	1	604	2	0	0
+6	0	1	0	1	0	1045	0	9	0	0	0
+7	0	1	0	145	0	728	4	264	0	0	0
+8	2	61	0	3	0	655	82	250	2	0	0
+9	0	14	0	106	0	878	0	0	57	0	0
+
+
+Process finished with exit code 0
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -Didea.launcher.port=7546 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Mohammed\Documents\CS4641\project2\ABAGAIL\bin;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Attempt2.Project2BPartA
+beginning RHCRunner
+Beginning training
+6.387401018637531E-5
+Correctly Classified Instances: 17.13%
+Incorrectly Classified Instances: 82.87%
+Training time: 00:02
+Testing time: 00:00
+Number of iterations: 100
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	453	0	5	0	0	384	1	13	1	3	0
+1	2	0	5	0	0	753	49	46	0	2	0
+2	3	0	18	0	0	816	13	0	0	0	0
+3	0	0	1	0	0	776	1	6	0	3	0
+4	15	0	180	0	1	654	0	13	2	6	0
+5	2	0	0	0	0	702	65	0	0	1	0
+6	10	0	33	0	0	197	195	169	170	29	0
+7	0	0	0	0	0	872	0	3	0	0	0
+8	86	0	1	0	0	587	49	54	0	0	0
+9	1	0	8	0	2	511	215	13	4	40	0
+
+Beginning training
+3.601814487145262E-5
+Correctly Classified Instances: 4.68%
+Incorrectly Classified Instances: 95.32%
+Training time: 00:04
+Testing time: 00:00
+Number of iterations: 100
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	293	4	202	0	55	4	0	5	0
+1	0	0	92	88	333	0	58	0	0	0	0
+2	2	0	24	219	295	0	26	0	0	0	0
+3	0	0	88	24	61	0	270	83	0	1	0
+4	5	0	36	293	1	0	10	233	0	0	0
+5	0	0	28	50	226	0	193	34	0	0	0
+6	1	0	116	8	1	0	207	191	0	0	0
+7	0	0	40	60	489	0	0	0	0	0	0
+8	0	0	141	20	284	0	36	0	0	43	0
+9	1	0	50	51	6	0	226	188	0	1	0
+
+Beginning training
+2.6117880665055614E-5
+Correctly Classified Instances: 10.52%
+Incorrectly Classified Instances: 89.48%
+Training time: 00:05
+Testing time: 00:00
+Number of iterations: 100
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	109	0	225	0	0	0	0	0	0
+1	0	0	31	1	307	0	1	0	0	0	0
+2	0	0	2	0	344	0	0	0	0	0	0
+3	0	0	3	0	316	0	0	0	0	0	0
+4	0	0	1	0	345	0	0	0	0	0	0
+5	0	0	122	0	195	0	0	0	0	0	0
+6	0	0	0	0	320	0	0	0	0	0	0
+7	0	0	112	0	236	0	0	0	0	0	0
+8	0	0	102	0	210	0	0	0	0	0	0
+9	0	0	1	0	315	0	0	0	0	0	0
+
+Beginning training
+9.016539987895642E-6
+Correctly Classified Instances: 7.27%
+Incorrectly Classified Instances: 92.73%
+Training time: 00:07
+Testing time: 00:00
+Number of iterations: 100
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	30	0	26	0	26	0	0	0	0	24	0
+1	33	0	64	0	10	0	0	0	0	3	0
+2	79	0	12	0	18	0	0	0	0	11	0
+3	0	0	1	0	112	0	0	0	0	3	0
+4	5	0	10	0	0	0	0	0	0	104	0
+5	8	0	6	0	65	0	0	0	0	20	0
+6	8	0	0	0	1	0	0	0	0	96	0
+7	4	0	13	0	86	0	0	0	0	7	0
+8	22	0	0	1	32	0	0	0	0	49	0
+9	11	0	38	0	24	0	0	0	0	38	0
+
+Beginning training
+1.1275856075018692E-5
+Correctly Classified Instances: 13.46%
+Incorrectly Classified Instances: 86.54%
+Training time: 00:06
+Testing time: 00:00
+Number of iterations: 100
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	15	1028	0	1	85	13	1	0	0	0	0
+1	371	628	1	4	44	53	0	40	0	2	0
+2	588	16	0	1	0	167	0	368	0	4	0
+3	40	1012	0	0	1	1	0	1	0	0	0
+4	2	1038	0	0	19	85	0	0	0	0	0
+5	8	385	0	0	502	3	15	130	0	12	0
+6	37	650	0	0	1	366	0	2	0	0	0
+7	19	192	0	33	32	17	0	814	0	35	0
+8	43	104	0	26	370	354	7	146	0	5	0
+9	45	879	0	0	47	8	75	1	0	0	0
+
+Beginning training
+9.349474821447258E-5
+Correctly Classified Instances: 5.20%
+Incorrectly Classified Instances: 94.80%
+Training time: 00:07
+Testing time: 00:00
+Number of iterations: 500
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	165	0	605	61	0	16	0	13	0
+1	0	0	0	0	0	846	0	4	6	1	0
+2	0	0	0	0	0	845	0	1	2	2	0
+3	0	0	0	0	0	773	0	0	14	0	0
+4	0	0	1	0	1	835	0	6	13	15	0
+5	0	0	0	0	0	315	354	55	24	22	0
+6	0	0	14	0	0	745	1	22	14	7	0
+7	0	0	0	0	0	766	0	106	0	3	0
+8	0	0	0	0	23	127	147	148	0	332	0
+9	0	0	0	0	2	748	0	0	38	6	0
+
+Beginning training
+4.5611339328271374E-5
+Correctly Classified Instances: 20.65%
+Incorrectly Classified Instances: 79.35%
+Training time: 00:13
+Testing time: 00:00
+Number of iterations: 500
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	365	0	1	0	3	0	187	0	7	0	0
+1	19	63	281	0	85	0	121	0	2	0	0
+2	0	354	177	0	5	0	29	0	1	0	0
+3	1	0	0	0	0	0	526	0	0	0	0
+4	27	0	0	0	0	0	551	0	0	0	0
+5	0	0	0	0	0	0	528	3	0	0	0
+6	0	0	0	0	0	0	524	0	0	0	0
+7	21	9	19	0	12	0	528	0	0	0	0
+8	12	0	2	0	2	0	502	0	6	0	0
+9	0	0	5	0	7	0	511	0	0	0	0
+
+Beginning training
+3.098027684002612E-5
+Correctly Classified Instances: 18.19%
+Incorrectly Classified Instances: 81.81%
+Training time: 00:22
+Testing time: 00:00
+Number of iterations: 500
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	148	0	186	0	0	0	0
+1	1	18	0	0	268	0	51	0	2	0	0
+2	0	43	0	0	303	0	0	0	0	0	0
+3	0	0	0	0	314	0	4	0	1	0	0
+4	0	0	0	0	289	0	57	0	0	0	0
+5	0	0	0	0	50	0	259	0	8	0	0
+6	0	1	0	0	121	0	190	0	1	7	0
+7	0	0	0	0	339	0	6	0	3	0	0
+8	0	0	0	0	110	0	99	0	103	0	0
+9	0	0	0	0	47	0	245	0	24	0	0
+
+Beginning training
+2.5357586712374578E-5
+Correctly Classified Instances: 20.91%
+Incorrectly Classified Instances: 79.09%
+Training time: 00:25
+Testing time: 00:00
+Number of iterations: 500
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	83	13	10	0	0	0	0
+1	0	0	0	0	90	0	19	1	0	0	0
+2	0	0	0	0	119	0	1	0	0	0	0
+3	0	0	0	0	111	0	5	0	0	0	0
+4	0	0	0	0	118	0	0	0	0	1	0
+5	0	0	0	0	43	46	9	1	0	0	0
+6	0	0	0	0	86	0	19	0	0	0	0
+7	0	0	0	0	55	4	41	10	0	0	0
+8	0	0	0	0	16	21	42	25	0	0	0
+9	0	0	0	0	71	0	3	0	0	37	0
+
+Beginning training
+2.5166572170295087E-5
+Correctly Classified Instances: 15.01%
+Incorrectly Classified Instances: 84.99%
+Training time: 00:37
+Testing time: 00:00
+Number of iterations: 500
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	901	91	0	86	2	40	19	3	1	0
+1	0	0	133	3	930	0	59	18	0	0	0
+2	0	0	0	87	1041	0	0	16	0	0	0
+3	0	0	455	0	521	0	7	8	64	0	0
+4	0	0	83	0	350	0	705	0	6	0	0
+5	0	1	1	0	407	329	287	0	30	0	0
+6	0	0	25	0	627	0	241	158	5	0	0
+7	0	0	23	83	298	2	6	730	0	0	0
+8	0	104	0	2	317	227	79	222	0	104	0
+9	0	3	14	2	222	0	477	10	327	0	0
+
+Beginning training
+1.388777480750151E-4
+Correctly Classified Instances: 18.09%
+Incorrectly Classified Instances: 81.91%
+Training time: 01:23
+Testing time: 00:00
+Number of iterations: 5000
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	560	5	0	272	0	0	0	23	0	0
+1	1	239	428	21	131	0	0	0	37	0	0
+2	20	75	615	0	140	0	0	0	0	0	0
+3	8	23	4	0	719	0	0	0	33	0	0
+4	7	65	260	0	452	0	0	0	87	0	0
+5	0	0	0	1	655	0	0	0	114	0	0
+6	0	0	0	0	785	0	0	0	18	0	0
+7	0	0	16	0	859	0	0	0	0	0	0
+8	0	12	8	0	572	0	0	0	185	0	0
+9	4	4	4	0	114	0	0	0	668	0	0
+
+Beginning training
+1.2333729432969124E-4
+Correctly Classified Instances: 29.73%
+Incorrectly Classified Instances: 70.27%
+Training time: 02:54
+Testing time: 00:00
+Number of iterations: 5000
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	519	5	5	0	30	4	0	0	0
+1	0	375	1	178	8	4	0	4	0	1	0
+2	0	275	0	289	0	0	2	0	0	0	0
+3	0	11	2	226	273	0	13	2	0	0	0
+4	0	26	2	161	351	0	14	24	0	0	0
+5	0	4	0	5	9	215	110	188	0	0	0
+6	0	0	4	4	4	7	466	39	0	0	0
+7	0	10	1	70	2	12	493	1	0	0	0
+8	0	0	5	1	1	31	272	214	0	0	0
+9	0	9	0	4	20	2	27	461	0	0	0
+
+Beginning training
+8.226276909527089E-5
+Correctly Classified Instances: 22.95%
+Incorrectly Classified Instances: 77.05%
+Training time: 03:53
+Testing time: 00:00
+Number of iterations: 5000
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	284	0	1	0	3	41	0	0	5	0	0
+1	0	4	212	63	1	59	0	0	1	0	0
+2	0	0	69	242	6	29	0	0	0	0	0
+3	0	0	1	0	273	40	0	0	5	0	0
+4	0	0	1	0	200	139	0	4	2	0	0
+5	0	0	0	0	76	198	0	0	32	11	0
+6	0	0	0	0	3	316	0	0	1	0	0
+7	0	0	35	1	4	286	0	0	22	0	0
+8	2	0	0	0	1	63	0	0	1	245	0
+9	0	0	0	0	2	7	0	0	306	1	0
+
+Beginning training
+4.117221705032667E-5
+Correctly Classified Instances: 27.00%
+Incorrectly Classified Instances: 73.00%
+Training time: 04:27
+Testing time: 00:00
+Number of iterations: 5000
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	90	0	0	3	4	9	0	0	0	0	0
+1	0	0	0	48	38	23	0	1	0	0	0
+2	0	0	0	118	0	1	0	1	0	0	0
+3	0	0	0	0	60	55	0	1	0	0	0
+4	1	0	0	10	62	35	1	10	0	0	0
+5	0	0	0	0	4	94	0	1	0	0	0
+6	0	0	0	0	1	31	38	35	0	0	0
+7	0	0	1	1	26	69	0	13	0	0	0
+8	0	0	0	0	20	36	3	45	0	0	0
+9	0	0	0	0	1	25	2	83	0	0	0
+
+Beginning training
+4.372288727252023E-5
+Correctly Classified Instances: 43.11%
+Incorrectly Classified Instances: 56.89%
+Training time: 04:52
+Testing time: 00:00
+Number of iterations: 5000
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	1057	6	0	0	29	3	33	0	10	5	0
+1	0	0	296	0	797	7	39	0	0	4	0
+2	0	0	1052	0	21	0	70	0	0	1	0
+3	0	1	32	0	860	5	157	0	0	0	0
+4	13	3	26	0	954	1	127	0	0	20	0
+5	0	0	0	0	367	2	633	0	48	5	0
+6	2	0	0	0	36	0	1017	0	0	1	0
+7	0	0	8	0	210	0	921	0	0	3	0
+8	9	1	1	0	34	1	328	0	435	246	0
+9	0	0	0	0	235	5	593	0	0	222	0
+
+
+Process finished with exit code 0
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -Didea.launcher.port=7547 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Mohammed\Documents\CS4641\project2\ABAGAIL\bin;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain Attempt2.Project2CPartA
+beginning SimulatedAnnealingRunner
+Beginning training
+4.237053952128148E-5
+Correctly Classified Instances: 5.99%
+Incorrectly Classified Instances: 94.01%
+Training time: 00:02
+Testing time: 00:00
+Number of iterations: 100
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	0	0	325	0	491	1	43	0
+1	0	0	0	0	0	73	0	547	151	86	0
+2	0	0	0	0	0	519	0	93	120	118	0
+3	0	0	0	0	0	0	0	787	0	0	0
+4	0	0	0	0	0	590	0	261	0	20	0
+5	0	10	0	1	0	9	0	336	0	414	0
+6	0	3	0	0	0	227	0	540	2	31	0
+7	0	15	0	0	0	433	0	371	2	54	0
+8	0	40	0	0	0	380	0	138	9	210	0
+9	0	0	0	2	0	18	0	613	56	105	0
+
+Beginning training
+3.410295405435472E-5
+Correctly Classified Instances: 10.26%
+Incorrectly Classified Instances: 89.74%
+Training time: 00:04
+Testing time: 00:00
+Number of iterations: 100
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	560	0	0	0	0	3	0	0
+1	51	0	12	508	0	0	0	0	0	0	0
+2	29	0	0	537	0	0	0	0	0	0	0
+3	0	0	0	527	0	0	0	0	0	0	0
+4	0	0	0	578	0	0	0	0	0	0	0
+5	0	60	0	431	0	3	0	0	37	0	0
+6	0	0	0	524	0	0	0	0	0	0	0
+7	0	32	1	555	0	0	0	0	1	0	0
+8	0	56	6	428	0	0	0	0	34	0	0
+9	0	0	16	506	0	0	0	0	1	0	0
+
+Beginning training
+1.7627484603721784E-5
+Correctly Classified Instances: 6.09%
+Incorrectly Classified Instances: 93.91%
+Training time: 00:05
+Testing time: 00:00
+Number of iterations: 100
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	2	0	0	3	16	289	1	17	6	0
+1	55	63	0	3	1	0	129	0	4	85	0
+2	0	70	0	3	15	0	140	0	69	49	0
+3	2	8	0	1	0	0	306	0	0	2	0
+4	7	3	0	2	80	30	212	3	9	0	0
+5	79	0	0	47	0	5	27	0	0	159	0
+6	69	0	0	27	0	96	2	0	4	122	0
+7	0	8	0	7	1	0	96	0	3	233	0
+8	0	29	0	4	7	18	50	0	46	158	0
+9	3	0	0	43	1	19	246	0	0	4	0
+
+Beginning training
+1.4168723899481393E-5
+Correctly Classified Instances: 15.27%
+Incorrectly Classified Instances: 84.73%
+Training time: 00:06
+Testing time: 00:00
+Number of iterations: 100
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	97	0	0	0	9	0	0	0	0
+1	0	0	99	0	0	0	0	11	0	0	0
+2	0	0	120	0	0	0	0	0	0	0	0
+3	1	0	112	0	0	0	0	0	3	0	0
+4	0	0	88	0	22	0	6	0	0	3	0
+5	0	0	60	0	20	0	2	2	3	12	0
+6	0	0	74	0	1	0	26	1	1	2	0
+7	0	0	108	0	0	0	0	0	0	2	0
+8	0	0	39	0	0	0	40	0	0	25	0
+9	0	0	54	0	55	0	2	0	0	0	0
+
+Beginning training
+1.25823624494727E-5
+Correctly Classified Instances: 14.77%
+Incorrectly Classified Instances: 85.23%
+Training time: 00:06
+Testing time: 00:00
+Number of iterations: 100
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	512	0	1	424	0	0	158	48	0	0
+1	0	208	89	718	9	0	0	0	119	0	0
+2	0	77	184	564	108	0	1	0	210	0	0
+3	0	952	1	39	19	2	0	0	42	0	0
+4	0	47	67	56	739	4	0	193	38	0	0
+5	0	257	0	0	33	69	307	0	389	0	0
+6	0	13	0	0	25	208	0	15	794	1	0
+7	0	735	62	80	38	0	0	0	225	2	0
+8	1	293	0	9	284	10	33	19	385	21	0
+9	0	243	56	23	249	259	0	3	222	0	0
+
+Beginning training
+4.8276350069409756E-5
+Correctly Classified Instances: 8.98%
+Incorrectly Classified Instances: 91.02%
+Training time: 00:06
+Testing time: 00:00
+Number of iterations: 500
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	1	29	425	1	0	5	0	6	393	0	0
+1	0	115	575	81	0	0	0	0	86	0	0
+2	0	260	172	1	0	0	0	9	408	0	0
+3	0	3	439	1	0	17	0	0	327	0	0
+4	0	60	209	7	0	0	0	0	595	0	0
+5	32	168	369	11	0	0	0	1	189	0	0
+6	0	63	309	287	0	0	0	48	96	0	0
+7	22	0	207	0	0	0	0	28	618	0	0
+8	39	139	155	0	0	0	0	21	423	0	0
+9	0	94	608	0	0	1	0	0	91	0	0
+
+Beginning training
+1.9798915198678194E-5
+Correctly Classified Instances: 2.24%
+Incorrectly Classified Instances: 97.76%
+Training time: 00:13
+Testing time: 00:00
+Number of iterations: 500
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	122	0	6	0	0	435	0	0	0	0
+1	0	102	0	43	0	0	424	0	2	0	0
+2	0	34	0	404	0	0	128	0	0	0	0
+3	0	0	0	1	0	0	526	0	0	0	0
+4	0	250	0	109	0	0	219	0	0	0	0
+5	0	95	0	78	0	0	358	0	0	0	0
+6	0	473	0	31	0	0	20	0	0	0	0
+7	0	3	0	18	0	0	568	0	0	0	0
+8	0	230	0	47	5	0	242	0	0	0	0
+9	0	172	0	15	0	0	336	0	0	0	0
+
+Beginning training
+2.2265089603652963E-5
+Correctly Classified Instances: 13.16%
+Incorrectly Classified Instances: 86.84%
+Training time: 00:21
+Testing time: 00:00
+Number of iterations: 500
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	288	23	0	20	0	3	0	0	0
+1	0	0	0	331	0	7	0	2	0	0	0
+2	0	0	0	289	0	55	0	2	0	0	0
+3	0	0	0	319	0	0	0	0	0	0	0
+4	0	0	30	245	0	36	0	35	0	0	0
+5	0	0	44	158	0	115	0	0	0	0	0
+6	0	0	9	306	0	5	0	0	0	0	0
+7	0	0	80	206	0	62	0	0	0	0	0
+8	0	0	177	20	0	102	0	13	0	0	0
+9	0	0	0	282	0	0	0	34	0	0	0
+
+Beginning training
+1.410114892063219E-5
+Correctly Classified Instances: 3.18%
+Incorrectly Classified Instances: 96.82%
+Training time: 00:25
+Testing time: 00:00
+Number of iterations: 500
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	0	19	0	85	0	0	0	2	0
+1	0	0	0	18	21	0	0	0	0	71	0
+2	0	0	0	3	23	0	0	0	0	94	0
+3	0	0	42	30	42	1	0	0	0	1	0
+4	0	0	3	91	0	25	0	0	0	0	0
+5	0	0	2	42	2	1	0	0	2	50	0
+6	0	0	0	105	0	0	0	0	0	0	0
+7	0	0	5	2	68	1	0	0	0	34	0
+8	0	0	2	71	5	20	6	0	0	0	0
+9	0	0	5	102	0	0	0	0	0	4	0
+
+Beginning training
+1.0779148399457808E-5
+Correctly Classified Instances: 6.37%
+Incorrectly Classified Instances: 93.63%
+Training time: 00:37
+Testing time: 00:00
+Number of iterations: 500
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	223	0	49	0	0	1	0	870	0	0
+1	0	541	0	135	0	0	81	0	386	0	0
+2	0	149	0	632	0	4	251	0	108	0	0
+3	0	335	0	0	0	0	1	0	719	0	0
+4	0	43	0	32	0	0	0	0	1069	0	0
+5	0	718	0	2	0	41	0	0	294	0	0
+6	0	418	0	51	0	0	0	0	587	0	0
+7	0	117	4	359	0	0	3	0	658	1	0
+8	0	756	0	180	0	0	1	0	118	0	0
+9	0	774	0	10	0	0	0	0	271	0	0
+
+Beginning training
+4.6271081666977486E-5
+Correctly Classified Instances: 14.40%
+Incorrectly Classified Instances: 85.60%
+Training time: 01:29
+Testing time: 00:00
+Number of iterations: 5000
+25% training / 75% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	3	22	0	2	809	0	0	0	24	0	0
+1	0	0	0	2	854	1	0	0	0	0	0
+2	0	0	0	0	831	0	0	0	19	0	0
+3	0	0	0	106	681	0	0	0	0	0	0
+4	0	0	0	0	870	0	0	0	1	0	0
+5	0	0	0	1	336	0	9	0	424	0	0
+6	0	0	84	0	717	1	0	0	1	0	0
+7	0	0	0	18	671	0	0	0	186	0	0
+8	3	46	83	57	371	5	4	0	208	0	0
+9	0	0	5	15	774	0	0	0	0	0	0
+
+Beginning training
+1.9428409390111198E-5
+Correctly Classified Instances: 21.38%
+Incorrectly Classified Instances: 78.62%
+Training time: 03:00
+Testing time: 00:00
+Number of iterations: 5000
+50% training / 50% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	169	121	234	0	3	0	0	0	35	1	0
+1	4	2	382	0	171	0	0	1	0	11	0
+2	0	0	433	0	129	0	0	0	0	4	0
+3	0	257	144	0	63	0	0	0	0	63	0
+4	4	5	50	0	519	0	0	0	0	0	0
+5	21	141	187	0	76	0	0	0	50	56	0
+6	1	509	1	0	9	0	0	4	0	0	0
+7	0	27	487	0	29	0	0	1	0	45	0
+8	13	148	137	0	19	0	0	27	33	147	0
+9	4	57	48	0	396	0	0	0	0	18	0
+
+Beginning training
+2.1704208227921665E-5
+Correctly Classified Instances: 0.94%
+Incorrectly Classified Instances: 99.06%
+Training time: 03:58
+Testing time: 00:00
+Number of iterations: 5000
+70% training / 30% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	18	5	0	45	265	0	1	0	0	0
+1	0	0	1	0	60	254	0	25	0	0	0
+2	0	0	0	0	72	274	0	0	0	0	0
+3	0	5	0	0	0	98	0	216	0	0	0
+4	0	165	0	0	0	170	0	11	0	0	0
+5	0	20	2	0	135	26	0	134	0	0	0
+6	0	2	2	0	229	15	0	72	0	0	0
+7	0	0	23	0	59	261	0	5	0	0	0
+8	0	0	79	0	135	97	0	1	0	0	0
+9	0	126	0	0	0	141	0	49	0	0	0
+
+Beginning training
+1.1883683208474468E-5
+Correctly Classified Instances: 16.55%
+Incorrectly Classified Instances: 83.45%
+Training time: 04:31
+Testing time: 00:00
+Number of iterations: 5000
+90% training / 10% testing
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	21	10	0	0	0	0	0	72	3	0
+1	0	22	45	0	17	0	0	1	25	0	0
+2	0	0	102	0	4	0	0	4	2	8	0
+3	0	14	7	0	32	0	0	0	63	0	0
+4	0	3	59	0	2	0	0	0	53	2	0
+5	0	8	23	0	34	0	0	16	6	12	0
+6	0	0	62	0	0	0	0	0	32	11	0
+7	0	1	8	0	7	0	0	33	41	20	0
+8	0	0	22	0	9	0	0	18	23	32	0
+9	0	2	16	0	8	0	0	0	85	0	0
+
+Beginning training
+1.2783001496067684E-5
+Correctly Classified Instances: 15.60%
+Incorrectly Classified Instances: 84.40%
+Training time: 04:55
+Testing time: 00:00
+Number of iterations: 5000
+Testing using training set.
+Confusion Matrix:
+
+	0	1	2	3	4	5	6	7	8	9	?
+0	0	0	1	0	29	168	20	22	851	52	0
+1	2	0	1	0	457	15	486	32	2	148	0
+2	0	0	0	0	28	0	988	0	2	126	0
+3	8	0	4	0	46	1	958	1	30	7	0
+4	0	0	0	0	1	1	241	28	204	669	0
+5	0	0	0	0	5	129	254	0	638	29	0
+6	0	0	0	0	10	1	400	0	639	6	0
+7	0	0	0	0	11	1	692	6	305	127	0
+8	18	0	3	0	43	7	71	0	885	28	0
+9	7	0	9	0	58	57	194	4	432	294	0
+
+
+Process finished with exit code 0
