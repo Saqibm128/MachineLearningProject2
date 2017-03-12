@@ -96,6 +96,9 @@ public abstract class ABaseNeuralNetworkRunner implements Runner {
         //    parameters used in optimization.
         NeuralNetworkOptimizationProblem nno = new NeuralNetworkOptimizationProblem(
             training, network, measure);
+
+        long totalTrainTime = 0;
+        long totalTestTime = 0;
         
         // 6) Instantiate a specific OptimizationAlgorithm, which defines how we pick our next potential
         //    hypothesis.
@@ -103,36 +106,45 @@ public abstract class ABaseNeuralNetworkRunner implements Runner {
         
         // 7) Instantiate a trainer.  The FixtIterationTrainer takes another trainer (in this case,
         //    an OptimizationAlgorithm) and executes it a specified number of times.
-        FixedIterationTrainer fit = new FixedIterationTrainer(o, iterations);
-        
-        long trainTime = System.currentTimeMillis();
+        for(int i = 0; i < 10; i ++) {
+            System.out.println("Starting iteration split 1");
+            FixedIterationTrainer fit = new FixedIterationTrainer(o, iterations / 10);
+            long trainTime = System.currentTimeMillis();
 
-        // 8) Run the trainer.  This may take a little while to run, depending on the OptimizationAlgorithm,
-        //    size of the data, and number of iterations.
-        System.out.println("Beginning training");
-        System.out.println(fit.train());
-        
-        trainTime = System.currentTimeMillis() - trainTime;
+            // 8) Run the trainer.  This may take a little while to run, depending on the OptimizationAlgorithm,
+            //    size of the data, and number of iterations.
+            System.out.println("Beginning training");
+            System.out.println(fit.train());
 
-        // 9) Once training is done, get the optimal solution from the OptimizationAlgorithm.  These are the
-        //    optimal weights found for this network.
-        Instance opt = o.getOptimal();
-        network.setWeights(opt.getData());
-        
-        long testTime = System.currentTimeMillis();
+            trainTime = System.currentTimeMillis() - trainTime;
 
-        //10) Run the training data through the network with the weights discovered through optimization, and
-        //    print out the expected label and result of the classifier for each instance.
-        this.accuracyMetric  = new AccuracyTestMetric();
-        this.confusionMatrix = new ConfusionMatrixTestMetric(labelDesc);
-        this.rawOutput       = new RawOutputTestMetric();
-        Tester t = new NeuralNetworkTester(network, this.rawOutput, this.accuracyMetric, this.confusionMatrix);
-        t.test(testing.getInstances());
+            // 9) Once training is done, get the optimal solution from the OptimizationAlgorithm.  These are the
+            //    optimal weights found for this network.
+            Instance opt = o.getOptimal();
+            network.setWeights(opt.getData());
+
+            long testTime = System.currentTimeMillis();
+
+            //10) Run the training data through the network with the weights discovered through optimization, and
+            //    print out the expected label and result of the classifier for each instance.
+            this.accuracyMetric = new AccuracyTestMetric();
+            this.confusionMatrix = new ConfusionMatrixTestMetric(labelDesc);
+            this.rawOutput = new RawOutputTestMetric();
+            Tester t = new NeuralNetworkTester(network, this.rawOutput, this.accuracyMetric, this.confusionMatrix);
+            t.test(training.getInstances());
+            System.out.println("totalIterations: " + (i+1) * iterations/10);
+            System.out.println("train Accuracy: " + accuracyMetric.getPctCorrect());
+            t.test(testing.getInstances());
+            System.out.println("test accuracy: " + accuracyMetric.getPctCorrect());
+
+            testTime = testTime - System.currentTimeMillis();
+            totalTestTime += testTime;
+            totalTrainTime += trainTime;
+
+        }
         
-        testTime = testTime - System.currentTimeMillis();
-        
-        this.trainTimeMillis = trainTime;
-        this.testTimeMillis  = testTime;
+        this.trainTimeMillis = totalTestTime;
+        this.testTimeMillis  = totalTrainTime;
     }
 
     @Override
